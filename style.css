@@ -1,0 +1,37 @@
+.container-fluid {
+    height: inherit;
+}
+
+.vertical-center {
+    min-height: 100%;
+    min-height: 90vh; 
+    display: flex;
+    align-items: center;
+  }
+
+#navbar {
+    flex-shrink: 0;
+}
+
+.col-centered {
+    margin: 0 auto;
+    float: none;
+}
+
+#searchbar {
+    border-radius: 25px;
+    padding-left: 10px;
+    height: 3em;
+    width: 40em;
+}
+
+#advancedSearch {
+    background-color: #488CFA;
+    color: white;
+}
+
+.button {
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+}
